@@ -32,3 +32,5 @@ As the technology got more advanced and enhanced, many of the offline businesses
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Feel free to fork the project and send us a pull request or even open a [new issue](https://github.com/AhmedAboughosen/Municipality-App/issues) to start discussion. 
