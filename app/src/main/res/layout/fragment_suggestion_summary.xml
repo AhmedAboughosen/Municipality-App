@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        >
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlack"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:id="@+id/op"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right">
+
+                    <TextView
+                        android:layout_marginEnd="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/type_suggestion"
+                        android:fontFamily="@font/droidsansarabic"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_attention"/>
+                </LinearLayout>
+
+                <!-- Main Content View -->
+                <TextView
+                    android:layout_below="@id/op"
+                    android:id="@+id/typeofsuggestioncontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/droidsansarabic"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlack"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <!-- Main Content View -->
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:id="@+id/cardliop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="end">
+
+                    <TextView
+                        android:id="@+id/municipality"
+                        android:layout_marginEnd="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mumcipilty"
+                        android:fontFamily="@font/droidsansarabic"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_goverment"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/municipality_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cardliop"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/droidsansarabic"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/fivecardview"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorBlack"
+            card_view:cardCornerRadius="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <!-- Main Content View -->
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:id="@+id/carddesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right">
+
+                    <TextView
+                        android:id="@+id/details"
+                        android:layout_marginEnd="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/suggestion_des"
+                        android:fontFamily="@font/droidsansarabic"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_writing"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/detailscontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/droidsansarabic"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sixcardview"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlack"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+
+            <!-- Main Content View -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/descriptionfcomaplinttext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@font/droidsansarabic"
+                    android:text="@string/attachment"
+                    android:textColor="@color/colorGrey"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:id="@+id/imageofcomplaint1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/descriptionfcomaplinttext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageofSuggestion"
+                        android:layout_width="50dp"
+                        android:layout_height="54dp"
+                        android:paddingRight="7dp"
+                        android:paddingLeft="7dp"
+                        android:paddingTop="2dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="3dp"/>
+
+                    <TextView
+                        android:id="@+id/number_image"
+                        android:layout_width="50dp"
+                        android:layout_height="17dp"
+                        android:gravity="center|bottom"
+                        android:text="@string/_1"
+                        android:layout_marginStart="3dp"
+                        android:background="@drawable/custom_button_followup"
+                        android:textColor="@color/colorWhite"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_below="@id/descriptionfcomaplinttext"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toStartOf="@id/imageofcomplaint1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/fileeofsuggestion"
+                        android:layout_width="50dp"
+                        android:layout_height="54dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginBottom="3dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/number_files"
+                        android:layout_width="50dp"
+                        android:layout_height="17dp"
+                        android:gravity="center|bottom"
+                        android:text="@string/_1"
+                        android:layout_marginStart="3dp"
+                        android:background="@drawable/custom_button_followup"
+                        android:textColor="@color/colorWhite" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/sendsuggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send_suggestion"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_button"/>
+
+    </LinearLayout>
+</ScrollView>

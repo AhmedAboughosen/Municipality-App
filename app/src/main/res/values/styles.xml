@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SearchToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#c8e6c9</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.FullScreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/colorWhite</item>
+    </style>
+
+    <!--styles for education app-->
+    <style name="viewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="viewParent.headerText">
+        <item name="android:textColor">@color/contentTextColor</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- Style for title TextView-->
+    <style name="TitleTextViewStyle">
+        <item name="android:paddingBottom">@dimen/padding_bottom_4</item>
+        <item name="android:paddingTop">@dimen/padding</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:paddingLeft">@dimen/padding</item>
+        <item name="android:paddingRight">@dimen/padding</item>
+    </style>
+    <!-- Style for Section, Author, and Date TextView -->
+    <style name="SectionAuthorDateStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Style for section TextView -->
+    <style name="SectionTextViewStyle" parent="@style/SectionAuthorDateStyle">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/color_section</item>
+    </style>
+
+    <!-- Style for trailText TextView -->
+    <style name="TrailTextViewStyle">
+        <item name="android:layout_marginBottom">@dimen/layout_margin_8</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:maxLines">6</item>
+        <item name="android:textColor">@color/color_trail_text</item>
+    </style>
+
+    <!-- Style for Author TextView -->
+    <style name="AuthorTextViewStyle" parent="@style/SectionAuthorDateStyle">
+        <item name="android:textColor">@color/color_author</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!-- Style for Date TextView -->
+    <style name="DateTextViewStyle" parent="@style/SectionAuthorDateStyle">
+        <item name="android:textColor">@color/color_date_text</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+
+
+    <!--designs for match parent width and height -->
+    <style name="FullSize">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+    <!--designs for login -->
+    <style name="parent" parent="FullSize">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="loginParent" parent="FullSize">
+        <item name="android:background">@color/loginBkColor</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+
+        <item name="closeIcon">@drawable/ic_close_white_24dp</item>
+        <item name="searchIcon">@drawable/ic_search_white_24dp</item>
+
+    </style>
+
+</resources>

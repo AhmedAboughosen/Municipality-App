@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlack"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:id="@+id/op"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="end">
+
+                    <TextView
+                        android:layout_marginEnd="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/type_of_complaint"
+                        android:fontFamily="@font/droidsansarabic"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_attention"/>
+                </LinearLayout>
+
+                <!-- Main Content View -->
+                <TextView
+                    android:layout_below="@id/op"
+                    android:id="@+id/typeofcomaplintcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/droidsansarabic"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/click_here_for_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlack"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <!-- Main Content View -->
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:id="@+id/cardli"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="end">
+
+                    <TextView
+                        android:id="@+id/location"
+                        android:layout_marginEnd="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/complaint_location"
+                        android:fontFamily="@font/droidsansarabic"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_location"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/locationtypeofcomaplintcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cardli"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/droidsansarabic"
+                    android:gravity="center"
+                    android:text="@string/click_here"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlack"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <!-- Main Content View -->
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:id="@+id/cardliop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right">
+
+                    <TextView
+                        android:id="@+id/municipality"
+                        android:layout_marginEnd="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/municpality"
+                        android:fontFamily="@font/droidsansarabic"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_goverment"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/municipality_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cardliop"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/droidsansarabic"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorBlack"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <!-- Main Content View -->
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:id="@+id/carddesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right">
+
+                    <TextView
+                        android:id="@+id/details"
+                        android:layout_marginEnd="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/describe_complaint"
+                        android:fontFamily="@font/droidsansarabic"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_writing"/>
+                </LinearLayout>
+
+
+
+
+                    <TextView
+                        android:id="@+id/detailscontent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/droidsansarabic"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        android:maxLength="400"
+                        android:padding="7dp"
+                        android:layout_below="@id/carddesc"
+                        />
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/attch_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlack"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+
+            <!-- Main Content View -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/att"
+                    android:layout_marginEnd="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/attachment"
+                    android:layout_alignParentEnd="true"
+                    android:fontFamily="@font/droidsansarabic"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorGrey"
+                    android:layout_alignParentRight="true"/>
+
+                <RelativeLayout
+                    android:id="@+id/imageofcomplaint1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/att"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageofcomplaint"
+                        android:layout_width="50dp"
+                        android:layout_height="54dp"
+                       />
+
+                    <TextView
+                        android:id="@+id/number_img"
+                        android:layout_width="40dp"
+                        android:layout_height="14dp"
+                        android:layout_below="@id/imageofcomplaint"
+                        android:text="@string/_1"
+                        android:gravity="center"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="3dp"
+                        android:textSize="12sp"
+                        android:background="@drawable/custom_button_followup"
+                        android:textColor="@color/colorWhite"
+                        android:layout_marginBottom="15dp"
+                        android:paddingBottom="2dp"
+                        />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_below="@id/att"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toStartOf="@id/imageofcomplaint1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/fileeofcomplaint"
+                        android:layout_width="50dp"
+                        android:layout_height="54dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/number_files"
+                        android:layout_width="40dp"
+                        android:layout_height="14dp"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:text="@string/_1"
+                        android:paddingBottom="2dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/custom_button_followup"
+                        android:textColor="@color/colorWhite"
+                        android:layout_marginBottom="15dp"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/sendcomplaintbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send_request"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_button"
+            android:layout_margin="50dp"
+            />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

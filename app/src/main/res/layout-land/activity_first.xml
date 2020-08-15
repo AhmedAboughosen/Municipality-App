@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".viewModel.FirstActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/main_logo"
+        android:layout_marginTop="5dp"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ministry_of_local_government_ar"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:fontFamily="@font/droidsansarabic"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/load"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

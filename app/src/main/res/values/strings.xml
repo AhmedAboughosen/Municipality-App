@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name"> بلديتي</string>
+    <string name="appname">تطبيق بلديتي</string>
+    <string name="our_link"><a href="https://www.google.com/">www.google.com</a></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="click_here_to_try">اضغط لإعادة المحاولة</string>
+    <string name="select_type_complaint">حـدد نـوع الشكوى</string>
+    <string name="do_want_remove_complaint">هل تريد حذف الشكوى ؟</string>
+    <string name="question_remove">سيتم تجاهل البيانات المدخلة و حذفها بشكل كامل</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+    <string name="All_Rights_Reserved"> 2019 - 2019  My Municipality App Icn. </string>
+    <string name="add_complaint">تقديم شكوى</string>
+    <string name="type_of_complaint">نوع الشكوى</string>
+    <string name="select_location">اختيار الموقع</string>
+    <string name="complaint_location">موقع الشكوى</string>
+    <string name="todo">TODO</string>
+    <string name="detail_complaint_text">وصف الشكوى</string>
+    <string name="add_attach">إضافة مرافقات</string>
+    <string name="next">التالي</string>
+    <string name="rationale_photo_picker">نطلب هذا الإذن لتحديد الصورة من المعرض والكاميرا.</string>
+    <string name="description_string_max_count">400</string>
+    <string name="complaint_details">تفاصيل الشكوى</string>
+    <string name="title_about_app">معلومات التطبيق</string>
+    <string name="title_call_us">اتصل بنا</string>
+    <string name="click_here">أضغط هنا</string>
+    <string name="municpality">البلدية</string>
+    <string name="describe_complaint">وصف الشكوى</string>
+    <string name="attachment">المرفقات</string>
+    <string name="send_request">ارسال الشكوى</string>
+    <string name="complaint_summary">ملخص الشكوى</string>
+    <string name="pre_google_map">سماح لتطبيق بلدتي بإستخدام Google Map?</string>
+    <string name="allow">السماح</string>
+    <string name="not_allow">عدم السماح</string>
+
+    <string name="google_maps_key">AIzaSyBPdv1v1I-1whOw-a0qIktszeY2M9eBqbU</string>
+    <string name="select_municipality">حــدد البلدية</string>
+    <string name="select_suggestion_type">حـدد نـوع المقترح</string>
+    <string name="suggestion_des">وصف المقترح</string>
+    <string name="mumcipilty">البلدية</string>
+    <string name="suggrstion_details">تفاصيل المتقرح</string>
+    <string name="type_suggestion">نوع المقترح</string>
+    <string name="send_suggestion">ارسل المقترح</string>
+    <string name="suggestion_summary">ملخص المقترح</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="back">رجوع</string>
+    <string name="ministry_of_local_government">MINISTRY OF LOCAL GOVERNMENT</string>
+    <string name="ministry_of_local_government_ar">وزارة الحكم المحلي</string>
+    <string name="app_name_main">تطبيق بلدتي</string>
+    <string name="National_ID">الرقم الوطني</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="sign_up">تسجيل</string>
+    <string name="settings">الاعدادات</string>
+    <string name="notify"> توعوية</string>
+    <string name="search">عرض</string>
+    <string name="home">الرئيسية</string>
+    <string name="app_for_complaint_suggestion">تطبيق الشكاوى و المقترحات</string>
+    <string name="care">كن واعيا</string>
+    <string name="follow">تابع</string>
+    <string name="complaint">وثق الشكاوى</string>
+    <string name="ideas">بنوك الافكار</string>
+    <string name="title_home">الصفحة الرئيسية</string>
+    <string name="welcome">أهلا وسهلا !</string>
+    <string name="complaint_title">الشكاوى</string>
+    <string name="suggestion_title">المقترحات</string>
+    <string name="following">متابعة</string>
+
+    <string name="in_execute">قيد التنفيد</string>
+    <string name="in_review">قيد المراجعة</string>
+    <string name="finish">تم التنفيد</string>
+    <string name="complaint_number">رقم الشكوى</string>
+    <string name="date_to_send">تاريخ الارسال</string>
+    <string name="complaint_state">حالة الشكوى</string>
+    <string name="suggestion_number">رقم المقترح</string>
+    <string name="type_of_suggestion">نوع المقترح</string>
+    <string name="suggestion_state">حالة المقترح</string>
+    <string name="skip">تخطي</string>
+    <string name="full_name">الاسم بالكامل</string>
+    <string name="regis">تسجيل</string>
+    <string name="Services">خدمتنا</string>
+    <string name="no_complaint_suggestion">لا يوجد لديك شكاوى</string>
+    <string name="share_article">Share Article</string>
+
+    <string name="final_message">شكرا لتعاونكم معنا , لقد تم إضافة الشكوى بالرقم</string>
+    <!-- Content description of the image -->
+    <string name="image_des">Image</string>
+    <string name="image_des_ic_share">Share</string>
+    <string name="news">حملات التوعوية</string>
+    <string name="introduce_suggestion">تقديم مقترح</string>
+    <string name="introduce_complaint">تقديم شكوى</string>
+    <string name="intro_add">تقديم</string>
+    <string name="progressbar">جاري الارسال</string>
+    <string name="server_error">هناك مشكلة  في اتصال بالسيرفر , يرجى  اعادة المحاولة </string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="app_version">الاصدار 1.0.0</string>
+    <string name="app_info">معلومات التطبيق</string>
+
+    //Call us Fragment
+    <string name="centers">مكتب الشكاوى و المقترحات</string>
+    <string name="phone_number_center">رقم الهاتف</string>
+    <string name="real_phone_number_center">1515</string>
+    <string name="email">email@outlook.com</string>
+    <string name="email_center">البريد الإكتروني</string>
+    <string name="location_on_map">العنوان على الخريطة</string>
+    <string name="VerifyYourNumber">تحقق من رقم  الهاتف</string>
+    <string name="mobile_number">يرجى إدخال رقم هاتفك المحمول للحصول على رمز التحقق.</string>
+    <string name="verify">تحقق</string>
+    <string name="verificationcode">الرمز التحقق</string>
+    <string name="send_code">يرجي ادخال الرمز التحقق التي سيتم  ارسله لك  </string>
+    <string name="your_email">البريد الاكتروني (اختياري)</string>
+    <string name="verfiy">التحقق</string>
+    <string name="resend">اعادة الارسال</string>
+    <string name="sms_message">سنرسل رمزًا عبر رسالة نصّيّة قصيرة إلى رقم هاتفك.</string>
+    <string name="code">الرمز التحقق</string>
+    <string name="verify_code">جاري التحقق</string>
+    <string name="enter_your_phone_number">ادخل رقم هاتفك</string>
+
+
+
+    //useDataActivity
+    <string name="info_of_user">بياناتك الشخصية </string>
+    <string name="_1">1</string>
+
+
+</resources>

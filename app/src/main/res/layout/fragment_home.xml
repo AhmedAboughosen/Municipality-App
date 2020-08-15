@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/FullSize"
+    tools:context=".mainActivity.HomeFragment"
+    android:orientation="vertical">
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.core.widget.NestedScrollView
+        style="@style/FullSize"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            style="@style/FullSize"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                >
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/slideviewpager"
+                    style="@style/FullSize" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/image0"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/indicator_default"
+                        />
+
+                    <TextView
+                        android:id="@+id/image1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/indicator_default"
+                        />
+                    <TextView
+                        android:id="@+id/image2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/indicator_selected"
+                        />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:text="@string/Services"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_width="match_parent"
+                style="@style/viewParent.headerText" />
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

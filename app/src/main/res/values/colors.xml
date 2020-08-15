@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#4cb5a6</color>
+    <color name="colorGrey">#bcbcbc</color>
+    <color name="colorGreyDark">#757575</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransparentWhite">#CCCCCC</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorBlueDark">#2286c3</color>
+    <color name="colorGreen">#2e7d32</color>
+    <color name="colorGreenprimary">#009688</color>
+    <color name="colorRed">#b71c1c</color>
+    <color name="bgBottomNavigation">#fe485a</color>
+    <color name="colorPurple">#983CFF</color>
+    <color name="colorPurpleT">#64983cff</color>
+    <color name="colorBlue">#2FB4FF</color>
+    <color name="colorBlueT">#642fb4ff</color>
+    <color name="colorGreen2">#97b498</color>
+    <color name="black">#212121</color>
+    <color name="colorGrayandWhite">#fafafa</color>
+
+
+    <color name="iron">#CCCCCC</color>
+
+    <color name="swipe_color_1">#4CAF50</color>
+    <color name="swipe_color_2">#03A9F4</color>
+    <color name="swipe_color_3">#FFC107</color>
+    <color name="swipe_color_4">#FF5722</color>
+
+    <color name="color_section">#4CAF50</color>
+    <color name="color_author">#8E24AA</color>
+
+    <!-- Colors for settings of color theme-->
+    <color name="white">#ffffff</color>
+    <color name="violet">#9c27b0</color>
+    <color name="light_green">#8bc34a</color>
+
+    <!-- Colors for gradient.xml file -->
+    <color name="gradient_center_color">#880d0d0f</color>
+    <color name="gradient_end_color">#885d5d5e</color>
+    <color name="gradient_start_color">#880f0f10</color>
+
+    <color name="color_trail_text">#102027</color>
+    <color name="color_date_text">#a4a4a4</color>
+
+    <color name="color_app_bar_text">#005689</color>
+    <color name="color_tab_text">#a7c0cd</color>
+
+    <color name="nav_bar_start">#7db1ec</color>
+    <color name="nav_bar_end">#002e5b</color>
+
+    <color name="whiteBodyColor">#FCFCFC</color>
+
+    <color name="vw_BgToolBar">#373B3E</color>
+    <color name="vw_BgRv">#191919</color>
+    <color name="vw_BgItem">#353535</color>
+
+    <color name="vw_ShadowItem">#94333232</color>
+
+    <color name="vw_BgRvFileDivider">#EEEEEE</color>
+
+    <color name="contentTextColor">#020000</color>
+
+
+    <color name="darkBlue">#282C37</color>
+    <color name="lightBlue">#0277FB</color>
+    <color name="grey">#a9a9a9</color>
+    <color name="colorProgressBar">#a9a9a9</color>
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#00a5ff</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+</resources>

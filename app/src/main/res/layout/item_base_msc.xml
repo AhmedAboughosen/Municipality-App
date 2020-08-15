@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="4dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <com.elyeproj.loaderviewlibrary.LoaderImageView
+            android:id="@+id/help"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="15dp"
+            app:use_gradient="true"
+            app:corners="16"
+            app:custom_color="@color/colorGrey"
+            />
+
+
+        <com.elyeproj.loaderviewlibrary.LoaderTextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|bottom"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="15dp"
+            app:use_gradient="true"
+            app:custom_color="@color/colorGrey"
+            android:fontFamily="@font/droidsansarabic"
+            />
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>

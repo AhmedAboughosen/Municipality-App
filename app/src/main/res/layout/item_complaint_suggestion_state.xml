@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_margin_5"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/layout_margin"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/layout_margin_8"
+                android:layout_marginTop="@dimen/layout_margin_4">
+
+
+                <com.elyeproj.loaderviewlibrary.LoaderTextView
+                    android:id="@+id/state"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitXY"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp20"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"
+                   />
+
+                <com.elyeproj.loaderviewlibrary.LoaderTextView
+                    android:id="@+id/number"
+                    style="@style/SectionTextViewStyle"
+                    android:layout_alignParentStart="true"
+                    android:layout_toStartOf="@id/state"
+                    android:gravity="right"
+                    android:textSize="@dimen/sp16"
+                    />
+
+                <com.elyeproj.loaderviewlibrary.LoaderTextView
+                    android:id="@+id/detail"
+                    style="@style/TrailTextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="23dp"
+                    android:textSize="@dimen/sp16"
+                    android:layout_toStartOf="@+id/state" />
+
+            </RelativeLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.elyeproj.loaderviewlibrary.LoaderTextView
+                    android:id="@+id/date_card"
+                    style="@style/DateTextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="right"
+                    android:textSize="@dimen/sp16"
+                    />
+
+                <com.elyeproj.loaderviewlibrary.LoaderTextView
+                    android:id="@+id/date_text"
+                    style="@style/DateTextViewStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="@dimen/sp16"
+                    android:gravity="left"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

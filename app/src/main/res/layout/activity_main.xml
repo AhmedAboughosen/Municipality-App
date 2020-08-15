@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/FullSize"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/layout_toolbar"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+        android:id="@+id/navigation"
+        style="@style/parent"
+        android:background="@color/colorWhite"
+        app:itemIconTint="@drawable/tab_color_selector"
+        app:itemTextColor="@drawable/tab_color_selector"
+        app:menu="@menu/bottom_menu"
+        />
+
+</LinearLayout>

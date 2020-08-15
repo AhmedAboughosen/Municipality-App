@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "572994474257",
+    "firebase_url": "https://mymunicipalityapp-42ddc.firebaseio.com",
+    "project_id": "mymunicipalityapp-42ddc",
+    "storage_bucket": "mymunicipalityapp-42ddc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572994474257:android:28ec490fa6323a9e",
+        "android_client_info": {
+          "package_name": "com.example.mymunicipalityapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572994474257-4gcfmpbnq3eli6dd1i81eh4kc6a07d9g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mymunicipalityapp",
+            "certificate_hash": "4dce2276997475a28bc663ebc8fc9d3d449f5591"
+          }
+        },
+        {
+          "client_id": "572994474257-0a60mq2up4unqnqg0oe5cvdh7bp5qjp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2eUd8_R3fu9CNsX_G61aU1HQ4f7_k9Dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572994474257-0a60mq2up4unqnqg0oe5cvdh7bp5qjp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

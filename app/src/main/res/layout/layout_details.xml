@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/string_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="0 / 400"
+            android:layout_marginStart="10dp"
+            android:gravity="left"
+            android:layout_marginTop="5dp"/>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/userIDTextInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/details"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top|right"
+                android:hint="@string/detail_complaint_text"
+                android:maxLength="400"
+                android:fontFamily="@font/droidsansarabic"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/add_attach"
+            android:fontFamily="@font/droidsansarabic"
+            android:layout_marginEnd="15dp"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/selectFile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_attach_file_gray"
+                android:background="@drawable/circle"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:paddingTop="2dp"
+                android:layout_marginStart="3dp"/>
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/selectImage"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_photo_camera_black_24dp"
+                android:background="@drawable/circle"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:paddingTop="2dp"
+                android:layout_marginStart="3dp"/>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/send_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:text="@string/next"
+            android:fontFamily="@font/droidsansarabic"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/custom_button_map"
+            android:layout_marginBottom="15dp"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
