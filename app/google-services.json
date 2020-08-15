@@ -15,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "572994474257-4gcfmpbnq3eli6dd1i81eh4kc6a07d9g.apps.googleusercontent.com",
+          "client_id": "572994474257-chunpn6d4bd6usmuq1hneubc9ag74rvl.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.mymunicipalityapp",
-            "certificate_hash": "4dce2276997475a28bc663ebc8fc9d3d449f5591"
+            "certificate_hash": "46d42841adddb8461029d14ad8c700b9b0d09735"
           }
         },
         {
