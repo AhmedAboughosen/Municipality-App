@@ -5,7 +5,7 @@ As the technology got more advanced and enhanced, many of the offline businesses
 
 ## Please Note, This project is no longer being maintained 
 
-<a href="https://github.com/khaledymoh/Covid-19/releases/download/v1.3.0/covid-19_1.3.0.apk"><img src="https://user-images.githubusercontent.com/55014628/90318864-b159cd00-df33-11ea-869c-a8cd28233cb3.png" width="32%" /></a>
+<a href="https://github.com/AhmedAboughosen/Municipality-App/blob/master/app/release/app-release.apk"><img src="https://user-images.githubusercontent.com/55014628/90318864-b159cd00-df33-11ea-869c-a8cd28233cb3.png" width="32%" /></a>
 
 ## Libraries, Languages and Concepts
 - Java
